@@ -1,1 +1,44 @@
+.todo-container {
+  display: flex;
+  margin: 20px;
+}
 
+input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #e53935;
+}
